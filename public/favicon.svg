@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181A20"/>
+      <stop offset="100%" stop-color="#08090C"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="13" fill="none" stroke="#D90429" stroke-width="2.5"/>
+  <text x="32" y="36" font-family="'Montserrat', 'Arial Black', 'Trebuchet MS', sans-serif" font-weight="900" font-size="21" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">MSA</text>
+  <rect x="7" y="42" width="50" height="11" rx="3" fill="#D90429"/>
+  <text x="32" y="50.5" font-family="'Montserrat', 'Arial', sans-serif" font-weight="800" font-size="6.2" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.1">AUTOMOTRIZ</text>
+</svg>

@@ -1,0 +1,25 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment & IDE
+.env
+.env.backup
+.env.production
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Large raw video backups / duplicates
+videos/GMPE_TVC_TAHOE_15SEG_16X9.mp4
+videos/TRAVERSE 15s_1920x1080 V2.mp4
+modelos 3d/
