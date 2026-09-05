@@ -89,11 +89,20 @@ class SplashAnimation {
     }
 
     enterExperience() {
+        // 0. Asegurar que siempre se muestre desde la parte superior (Hero / Inicio)
+        window.scrollTo(0, 0);
+        if (window.location.hash) {
+            try {
+                history.replaceState(null, null, window.location.pathname + window.location.search);
+            } catch (e) {}
+        }
+
         const splashEl = this.splash || document.getElementById('splash');
         if (splashEl) {
             splashEl.classList.add('hide');
             setTimeout(() => {
                 splashEl.style.display = 'none';
+                window.scrollTo(0, 0);
                 if (this.animationFrame) {
                     cancelAnimationFrame(this.animationFrame);
                 }
@@ -129,15 +138,31 @@ class SplashAnimation {
     }
 }
 
+// Asegurar que al cargar o recargar siempre inicie en la parte superior
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+
 // Función global accesible inmediatamente
 window.enterExperience = function() {
+    window.scrollTo(0, 0);
+    if (window.location.hash) {
+        try {
+            history.replaceState(null, null, window.location.pathname + window.location.search);
+        } catch (e) {}
+    }
+
     if (window.splashInstance && typeof window.splashInstance.enterExperience === 'function') {
         window.splashInstance.enterExperience();
     } else {
         const s = document.getElementById('splash');
         if (s) {
             s.classList.add('hide');
-            setTimeout(() => { s.style.display = 'none'; }, 650);
+            setTimeout(() => { 
+                s.style.display = 'none'; 
+                window.scrollTo(0, 0);
+            }, 650);
         }
     }
 };
