@@ -2,22 +2,13 @@
 # CONFIGURACIÓN APACHE — MSA AUTOMOTRIZ LANZAMIENTO SUV
 # =========================================================================
 
-# Establecer archivos de inicio
-DirectoryIndex index.php public/index.php index.html
+DirectoryIndex index.php index.html
 
 # MIME Types para Modelos 3D GLB y audio/video
 AddType model/gltf-binary .glb
 AddType model/gltf+json .gltf
 AddType audio/mpeg .mp3
 AddType video/mp4 .mp4
-
-# Enrutamiento transparente hacia public si es necesario
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    
-    # Si la petición es a la raíz exacta, cargar index.php
-    RewriteRule ^$ index.php [L]
-</IfModule>
 
 # Establecer codificación UTF-8
 AddDefaultCharset UTF-8
