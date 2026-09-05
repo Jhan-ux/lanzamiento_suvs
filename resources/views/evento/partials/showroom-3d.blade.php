@@ -149,7 +149,7 @@
                     <div id="srFeaturesList" class="showroom-features-list">
                         <div class="showroom-feature-item">
                             <div class="sf-icon">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
                             </div>
                             <div>
                                 <div class="sf-title">Motor 5.3L EcoTec3 V8</div>
@@ -159,7 +159,7 @@
 
                         <div class="showroom-feature-item">
                             <div class="sf-icon">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
                             </div>
                             <div>
                                 <div class="sf-title">Pantalla Táctil de 17.7"</div>
@@ -169,7 +169,7 @@
 
                         <div class="showroom-feature-item">
                             <div class="sf-icon">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
                             </div>
                             <div>
                                 <div class="sf-title">Suspensión Adaptativa Air Ride</div>

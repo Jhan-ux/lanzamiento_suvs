@@ -109,16 +109,7 @@ class SplashAnimation {
             }, 650);
         }
 
-        // 1. Sonido de aceleración de motor V8
-        try {
-            if (window.AudioManager && typeof window.AudioManager.playEngineRev === 'function') {
-                window.AudioManager.playEngineRev();
-            }
-        } catch (e) {
-            console.warn('Audio playEngineRev error:', e);
-        }
-
-        // 2. Audio ambiental
+        // 1. Audio ambiental
         try {
             if (window.AudioManager && typeof window.AudioManager.playAmbient === 'function') {
                 window.AudioManager.playAmbient();

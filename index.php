@@ -322,7 +322,7 @@ $evento = [
             <div class="details-grid">
                 <div class="detail-card">
                     <div class="detail-icon-box">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
                     </div>
                     <span class="detail-tag">Fecha Oficial</span>
                     <div class="detail-main"><?= $evento['fecha']['dia_semana'] ?> <?= $evento['fecha']['dia'] ?></div>
@@ -330,7 +330,7 @@ $evento = [
                 </div>
                 <div class="detail-card">
                     <div class="detail-icon-box">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     </div>
                     <span class="detail-tag">Horario de Ingreso</span>
                     <div class="detail-main"><?= $evento['fecha']['hora'] ?></div>
@@ -338,11 +338,11 @@ $evento = [
                 </div>
                 <div class="detail-card">
                     <div class="detail-icon-box">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
                     </div>
                     <span class="detail-tag">Ubicación</span>
                     <div class="detail-main"><?= $evento['ubicacion']['lugar'] ?></div>
-                    <div class="detail-sub"><?= $evento['ubicacion']['direccion'] ?><br><small style="color: var(--msa-red); font-weight: 600;"><?= $evento['ubicacion']['referencia'] ?></small></div>
+                    <div class="detail-sub"><?= $evento['ubicacion']['direccion'] ?><br><small style="color: var(--chevy-gold); font-weight: 600;"><?= $evento['ubicacion']['referencia'] ?></small></div>
                 </div>
             </div>
             <div class="cta-actions-row">
@@ -547,7 +547,7 @@ $evento = [
                         <div id="srFeaturesList" class="showroom-features-list">
                             <div class="showroom-feature-item">
                                 <div class="sf-icon">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
                                 </div>
                                 <div>
                                     <div class="sf-title">Motor 5.3L EcoTec3 V8</div>
@@ -556,7 +556,7 @@ $evento = [
                             </div>
                             <div class="showroom-feature-item">
                                 <div class="sf-icon">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
                                 </div>
                                 <div>
                                     <div class="sf-title">Pantalla Táctil de 17.7"</div>
@@ -565,7 +565,7 @@ $evento = [
                             </div>
                             <div class="showroom-feature-item">
                                 <div class="sf-icon">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
                                 </div>
                                 <div>
                                     <div class="sf-title">Suspensión Adaptativa Air Ride</div>
@@ -601,11 +601,11 @@ $evento = [
         </div>
         <div class="dress-code-card">
             <div class="detail-icon-box" style="margin-bottom: 16px;">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eaa11f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
             </div>
             <h4 class="dress-code-name"><?= $evento['dress_code']['tipo'] ?></h4>
             <p class="dress-code-desc"><?= $evento['dress_code']['descripcion'] ?></p>
-            <div style="font-size: 0.8rem; font-weight: 700; letter-spacing: 0.15em; color: var(--msa-red); text-transform: uppercase; margin-bottom: 16px;">Paleta de Tonos Sugerida</div>
+            <div style="font-size: 0.8rem; font-weight: 700; letter-spacing: 0.15em; color: var(--chevy-gold); text-transform: uppercase; margin-bottom: 16px;">Paleta de Tonos Sugerida</div>
             <div class="dress-swatches-grid">
                 <?php foreach ($evento['dress_code']['colores'] as $c): ?>
                 <div class="swatch-item">
