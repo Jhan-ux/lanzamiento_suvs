@@ -53,19 +53,7 @@
     {{-- 9. Footer Institucional --}}
     @include('evento.partials.footer')
 
-    {{-- 10. Botón Flotante de Audio / Música --}}
-    <button id="musicToggleBtn" class="music-toggle-btn" aria-label="Control de audio" title="Activar/Silenciar música">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 18V5l12-2v13"></path>
-            <circle cx="6" cy="18" r="3"></circle>
-            <circle cx="18" cy="16" r="3"></circle>
-        </svg>
-    </button>
 
-    {{-- Elemento de Audio Opcional para Música de Fondo --}}
-    <audio id="ambientAudioElement" loop preload="auto">
-        <source src="{{ asset('audio/ambient.mp3') }}" type="audio/mp3">
-    </audio>
 
     {{-- Scripts Modulares con Cache Buster --}}
     <script src="{{ asset('js/splash.js') }}?v=2.1"></script>
