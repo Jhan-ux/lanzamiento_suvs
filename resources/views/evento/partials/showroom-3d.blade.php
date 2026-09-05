@@ -6,23 +6,18 @@
     {{-- Selector de Modelos Oficiales (5 Vehículos con Vista 3D y HD) --}}
     <div class="showroom-tabs-nav">
         <button class="showroom-tab-btn active" data-model="tahoe" onclick="selectShowroomModel('tahoe')">
-            <span class="st-tag">3D · LUXURY V8</span>
             <span class="st-name">TAHOE</span>
         </button>
         <button class="showroom-tab-btn" data-model="traverse" onclick="selectShowroomModel('traverse')">
-            <span class="st-tag">3D · ALL-NEW</span>
             <span class="st-name">TRAVERSE</span>
         </button>
         <button class="showroom-tab-btn" data-model="suburban" onclick="selectShowroomModel('suburban')">
-            <span class="st-tag">3D · FLAGSHIP</span>
             <span class="st-name">SUBURBAN</span>
         </button>
         <button class="showroom-tab-btn" data-model="silverado" onclick="selectShowroomModel('silverado')">
-            <span class="st-tag">3D · V8 TRUCK</span>
             <span class="st-name">SILVERADO</span>
         </button>
         <button class="showroom-tab-btn" data-model="colorado" onclick="selectShowroomModel('colorado')">
-            <span class="st-tag">3D · TURBO 4X4</span>
             <span class="st-name">COLORADO</span>
         </button>
     </div>
@@ -37,11 +32,11 @@
                 <div id="showroomModeSwitcher" class="showroom-mode-switcher">
                     <button id="btnMode3D" class="sr-mode-btn active" onclick="setShowroomViewMode('3d')">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
-                        <span>VISTA 3D 360°</span>
+                        <span>VISTA 360°</span>
                     </button>
                     <button id="btnModePhoto" class="sr-mode-btn" onclick="setShowroomViewMode('photo')">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-                        <span>FOTO HD DE ESTUDIO</span>
+                        <span>FOTO HD</span>
                     </button>
                 </div>
             </div>
